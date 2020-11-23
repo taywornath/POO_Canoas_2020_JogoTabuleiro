@@ -29,8 +29,8 @@ public class CasaView {
             System.out.println(preenche(txtJogadores,' ',25));
         }
         System.out.println(preenche("",'-', 25));
-
     }
+    
     private static String preenche(String texto, char preenchimento, int tamanho) {
         //for(int t = texto.length(); t <= tamanho; t++) {
         //    texto += preenchimento;
@@ -40,4 +40,7 @@ public class CasaView {
         }
         return "|"+texto+"|";
     }
+    
+    
+    
 }
